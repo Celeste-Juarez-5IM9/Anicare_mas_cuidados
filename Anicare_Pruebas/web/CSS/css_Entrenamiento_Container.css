@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+body {
+  font-family: Lato, sans-serif;
+}
+
+h5 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+ h2, h3 {
+
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+section {
+  -webkit-column-width: 16rem;
+          column-width: 16rem;
+  line-height: 1.5;
+  width: 45rem;
+  -webkit-column-gap: 7rem;
+          column-gap: 7rem;
+  margin: 2rem auto;
+  text-align: justify;
+  widows: 2;
+  position: relative;
+  -webkit-column-fill: balance;
+          column-fill: balance;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  font-size: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+section p:first-of-type {
+  margin-top: 0;
+}
